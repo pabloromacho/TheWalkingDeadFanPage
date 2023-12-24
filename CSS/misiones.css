@@ -1,0 +1,43 @@
+.contenedor{
+   display: flex;
+   justify-content: center;
+ }
+
+ table{
+    border-collapse: collapse;
+    border: 8px solid gray;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+
+ }
+
+
+
+ th{
+   
+    border: 3px solid grey;
+    padding: 20px;
+    background-color: gray;
+ }
+
+
+ td{
+    border: 1px solid grey;
+    padding: 20px;
+ 
+ }
+
+ .imagen{
+   text-align: center;
+   border: 1px solid grey;
+   padding: 10px;
+   background-color: gray;
+}
+
+tr:hover{
+   text-align: center;
+   border: 1px solid grey;
+   padding: 10px;
+   background-color: rgb(214, 39, 39);
+}
